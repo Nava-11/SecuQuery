@@ -1,0 +1,10 @@
+flask>=2.0
+spacy>=3.0
+# If you want to use the official client in other connectors, install it.
+# Use the major matching your Elasticsearch server (7 or 8).
+elasticsearch>=8.0.0
+urllib3>=1.26
+# Optional (for charts in web UI)
+plotly>=5.0
+# Optional: download the spaCy model separately:
+# python -m spacy download en_core_web_sm
