@@ -33,7 +33,7 @@ SIEM NLP Assistant lets you type natural language queries (e.g. "Search for fail
 
 4. Configure Elasticsearch connection (if needed):
 
-   - Default is https://localhost:9200 with username `elastic` and password `Nava@2004`.
+   - Default is https://localhost:9200 .
    - To change, edit `src/siem_connector.py` constants: `ES_URL`, `ES_USER`, `ES_PASS`, and `FALLBACK_MAJOR`.
 
 5. Run the CLI:
